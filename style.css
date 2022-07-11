@@ -1,0 +1,69 @@
+@media screen and (max-width: 600px) {
+    .device{
+        background-color: red;
+        
+    }
+    .device > div{
+        background-color: rgb(148, 148, 148);
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .device{
+        background-color: green;
+        display: grid;
+        grid-template-rows: 2fr 1fr auto;;
+    }
+    .device > div{
+        background-color: rgb(148, 148, 148);
+        margin: 10px;
+    }
+
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .device{
+        background-color: blue;
+        display: flex;
+    }
+    .device > div{
+        background-color: rgb(148, 148, 148);
+        margin: 10px;
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 600px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+        font-size: 18px;
+        }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+    body{
+        background-color: green;
+        font-size: 24px;
+        display: flex;
+        }   
+}
+
+@media screen and (min-width: 1025px) {
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: blue;
+        font-size: 30px;
+        }
+} */
